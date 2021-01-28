@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+  background-image: url();
+}
+
+.quote {
+    width: 90%;
+    background-image: linear-gradient(to right, darkolivegreen , darkseagreen);
+    color: aliceblue;
+    padding: 100px;
+    font-size: 26px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 108px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+
+  .home {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+  }
+
+
+
+
+  .books {
+    max-width: 200px;
+}
+
+.games, .crafts {
+    max-width: 300px;
+}
+
+.flex {
+    display: flex;
+}
+
+.section-container {
+    flex-direction: column;
+    padding: 5%;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+#cart {
+    font-weight: bold;
+    align-items: center;
+}
+
+.section {
+    margin: 4% 0%;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #6095ff;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.buy img {
+    width: 20px;
+    padding-left: 5px;
+}
+
+.buy {
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}

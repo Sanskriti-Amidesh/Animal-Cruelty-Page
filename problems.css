@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+body {
+    background:url("https://static.vecteezy.com/system/resources/previews/001/218/847/original/pastel-blue-water-color-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+hr {
+    border-top: 2px solid steelblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.para1 {
+    max-width: 200px;
+    display: flex;
+    border: 4px solid steelblue;
+    padding: 30px;
+    flex-direction: row;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+}
+
+.para2 {
+    max-width: 200px;
+    display: flex;
+    border: 4px solid steelblue;
+    padding: 30px;
+    flex-direction: row;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+}
+
+.para3 {
+    max-width: 230px;
+    display: flex;
+    border: 4px solid steelblue;
+    padding: 30px;
+    flex-direction: row;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+}
+
+.para4 {
+    max-width: 230px;
+    display: flex;
+    border: 4px solid steelblue;
+    padding: 30px;
+    flex-direction: row;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+}
+
+.para5 {
+    max-width: 230px;
+    display: flex;
+    border: 4px solid steelblue;
+    padding: 30px;
+    flex-direction: row;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+}
+
+.para6 {
+    max-width: 230px;
+    display: flex;
+    border: 4px solid steelblue;
+    padding: 30px;
+    flex-direction: row;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+}
+
+.section1, .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.images {
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.pigsdyk {
+    border: 4px solid steelblue;
+    border-radius: 10%;
+    justify-content: space-around;
+}
+
+.dogsdyk {
+    border: 4px solid steelblue;
+    border-radius: 10%;
+    width: 375px;
+    justify-content: space-around;
+}
+
+.foxdyk {
+    border: 4px solid steelblue;
+    border-radius: 10%;
+    width: 453px;
+    justify-content: space-around;
+}
+
+.rhinodyk {
+    border: 4px solid steelblue;
+    border-radius: 10%;
+    width: 332px;
+    justify-content: space-around;
+}
+
+.onclick {
+    margin-left: 50%;
+    appearance: button;
+    text-rendering: auto;
+    color: -internal-dark-light(white, black);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark( rgb(59, 59, 59), rgb(239, 239, 239));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 2px;
+}
+    
+button:hover {
+    background: darkcyan;
+}
